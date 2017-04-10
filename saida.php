@@ -16,7 +16,7 @@
       $notaVA2 = $_POST['notaVA2'];
       $notaVA3 = $_POST['notaVA3'];
       $notaTrab = $_POST['notaTrab'];
-	  $lado = $_POST['nomCoord'];
+	  $lado = $_POST['valorLado'];
 	  
 	  $area = $lado * $lado;
 	   $perimetro = $lado *4;
@@ -162,6 +162,10 @@
      <?php echo $nomeProfessor; ?> - Professor(a)
     </p>
     <br>
+		
+		<p class="Alinhar">
+      <?php echo $nomeCoord; ?> - Coordenador(a)
+    </p>
     
     <hr>    
     <p class="Alinhar">
